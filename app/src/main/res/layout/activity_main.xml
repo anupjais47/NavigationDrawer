@@ -22,12 +22,19 @@
                 android:layout_height="?attr/actionBarSize"
                 app:title="Profiles"
                 app:navigationIcon="@drawable/baseline_menu_24"
-                android:background="@color/white"
+                android:background="@color/app_theme_light"
                 />
 
         </com.google.android.material.appbar.AppBarLayout>
 
-        <TextView
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+        <!--            android:layout_below="@+id/appbarLayout"-->
+            />
+        <!--<TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
@@ -37,7 +44,9 @@
             android:textColor="@color/black"
             android:textSize="30dp" />
 
-    </RelativeLayout>
+            -->
+
+<!--    </RelativeLayout>-->
 
 
 
